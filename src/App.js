@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+// import Greet from './components/Greet';
+// import Welcome from './components/Welcome';
+// import Meassage from './components/Message'
+// import ExpProps from './components/ExpProps'
+// import { CompoCom } from './components/CompoCom';
+import Appskills from './components/Apps';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Appskills />
+      {/* <Greet name="Anasuri" />
+      <Greet name="Anasuri2" />
+      <Greet name="Anasuri3" />
+      <Welcome name="Anasuri11" />
+      <Welcome name="Anasuri222" />
+      <Welcome name="Anasuri322" />
+      <Meassage />
+      <ExpProps name='Priya'>
+        <h1>Come naa</h1>
+      </ExpProps>
+      <CompoCom /> */}
+
+
+
+
+
+
+
+
+
     </div>
   );
 }
